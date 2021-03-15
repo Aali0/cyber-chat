@@ -1,6 +1,6 @@
 {
   "name": "cyber-chat",
-  "version": "10.19.0",
+  "version": "14.6.0",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
