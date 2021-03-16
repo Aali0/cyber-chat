@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { sendMessage, isTyping } from 'react-chat-engine';
 import { SendOutlined, PictureOutlined } from '@ant-design/icons';
+import  TranslateApi  from '../utils/API';
 
 const MessageForm = (props) => {
     const [value, setValue] = useState('');
@@ -10,10 +11,13 @@ const MessageForm = (props) => {
         event.preventDefault();
 
         const text = value.trim();
+        console.log(text);
 
         if(text.length > 0) sendMessage(creds, chatId, { text });
 
-        setValue('');
+        TranslateApi(text);
+
+         setValue('');
     }
 
     const handleChange = (event) => {

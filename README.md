@@ -1,5 +1,22 @@
-# React Cyber Chat
+# Title: Pangea
 
-A Chat application that allows users to login, create new rooms, and chat with friends. Powered with react and capable of sending text and images with read receipt functionality.
 
-This application is still in development to add more features.
+# Group Members
+Ahmed Ali
+Keith Sutton
+Natan Stuart
+Shane Rogers
+
+# Functionality
+
+The purpose of this app is to allow text communication and break language barriers. This app will utilize google translate API and google maps API.
+The app will translate in real time with the pre-selected language the user chooses to translate to from their pre-selected primary language.
+The user will be able to view a map that will show the recipients location.
+The user will be able to add people to a friends list.
+Login functionality where the user creates a username and password.
+
+![](Pangearoughsketch.png)
+
+User Flow:
+
+![](user-flow.png)
