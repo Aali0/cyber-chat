@@ -3,6 +3,7 @@ import { sendMessage, isTyping } from 'react-chat-engine';
 import { SendOutlined, PictureOutlined } from '@ant-design/icons';
 import  TranslateApi  from '../utils/API';
 
+
 const MessageForm = (props) => {
     const [value, setValue] = useState('');
     const { chatId, creds } = props;
@@ -31,6 +32,8 @@ const MessageForm = (props) => {
         sendMessage(creds, chatId, { files: event.target.files, text: ''});
     }
 
+
+
     return (
         <form className="message-form" onSubmit={handleSubmit}>
             <input
@@ -56,6 +59,7 @@ const MessageForm = (props) => {
                 <SendOutlined className="send-icon" />
             </button>
         </form>
+        
     );
 }
 
