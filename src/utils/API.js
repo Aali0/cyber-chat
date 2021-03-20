@@ -1,14 +1,10 @@
 import translate from 'translate';
 
-const TranslateApi = (text) => {
+
+const TranslateApi = (text, language) => {
 
     const userInput = text;
-    
-    // english, spanish, german, korean, arabic
-    // const languageList = [ 'en', 'es', 'de', 'ko', 'ar'];
-
-
-
+   
 
     async function translateString(str, translateTo ) {
         translate.engine = 'libre';
@@ -16,7 +12,7 @@ const TranslateApi = (text) => {
         console.log(translated_string);
     }
 
-    translateString(userInput, 'es')
+    translateString(userInput, language)
 
 } 
 
