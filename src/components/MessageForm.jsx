@@ -11,6 +11,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
 
+
 const MessageForm = (props) => {
     const [value, setValue] = useState('');
     const { chatId, creds } = props;
@@ -38,6 +39,8 @@ const MessageForm = (props) => {
     const handleUpload = (event) => {
         sendMessage(creds, chatId, { files: event.target.files, text: ''});
     }
+
+
 
     return (
         <form className="message-form" onSubmit={handleSubmit}>
@@ -82,6 +85,7 @@ const MessageForm = (props) => {
   </Navbar.Collapse>
 </Navbar>
         </form>
+        
     );
 }
 
