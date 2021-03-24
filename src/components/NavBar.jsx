@@ -20,6 +20,9 @@ return (
             <Navbar.Brand href="#home">
                 🌎
             </Navbar.Brand>
+            <div>
+                <h1 className="pangea">Pangea</h1>
+            </div>
             <Button variant="outline-danger" className="log-out" >Log Out</Button>{' '}
         </Navbar>
     </>
