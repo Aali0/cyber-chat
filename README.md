@@ -1,19 +1,40 @@
 # Title: Pangea
 
+## Table of Contents:
+* [Description: ](#description)
+* [Installation:](#installation)
+* [Usage: ](#usage)
+* [Contribution: ](#contribution)
+* [Test: ](#test)
+* [License: ](#license)
+* [GitHub: ](#github)
+* [Email: ](#email)
+    
+## Description
+A dynamic messaging application that connects users around the globe. It offers many features andthe ability to actively translate your message to a selected language.
 
-# Group Members
-Ahmed Ali
-Keith Sutton
-Natan Stuart
-Shane Rogers
+## Installation
+npm install
 
-# Functionality
+## Usage
+Easy to use interface
 
-The purpose of this app is to allow text communication and break language barriers. This app will utilize google translate API and google maps API.
-The app will translate in real time with the pre-selected language the user chooses to translate to from their pre-selected primary language.
-The user will be able to view a map that will show the recipients location.
-The user will be able to add people to a friends list.
-Login functionality where the user creates a username and password.
+## Contribution
+Keith Sutton, Ahmed Ali, Shane Rogers, Natan Stuart
+
+## Test
+npm run test
+
+## License
+MIT
+
+## GitHub
+-
+
+## Email
+-
+    
+    
 
 ![](Pangearoughsketch.png)
 

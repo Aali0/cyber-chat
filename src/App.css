@@ -15,8 +15,8 @@
   }
   
   .ce-active-chat-card {
-    background-color: #cabcdc !important;
-    border: 4px solid #cabcdc !important;
+    background-color: #9aacf8 !important;
+    border: 4px solid #9aacf8 !important;
     border-radius: 0px !important;
   }
   
@@ -30,12 +30,12 @@
   
   .ce-text-input {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #7554a0 !important;
   }
   
   .ce-primary-button {
     border-radius: 6px !important;
-    background-color: #7554a0 !important;
+    background-color: #4717F6 !important;
     position: relative;
     bottom: 1px;
   }
@@ -61,11 +61,11 @@
   }
   
   .ce-chat-settings-container {
-    padding-top: 12px !important;
+    padding-top: 12px;
   }
   
   .ce-chat-avatars-row {
-    display: none !important;
+    display: none;
   }
   
   /* CUSTOM FEED */
@@ -84,13 +84,13 @@
   }
   
   .chat-title {
-    color: #7554a0;
+    color: #100322;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 34px;
   }
   
   .chat-subtitle {
-    color: #7554a0;
+    color: #232427;
     font-weight: 600;
     font-size: 12px;
     padding-top: 4px;
@@ -176,6 +176,10 @@
     padding: 0px 18px;
     outline: none;
     font-size: 15px;
+  }
+
+  .pangea {
+    font-family: 'Roboto', sans-serif;
   }
   
   .image-button {
