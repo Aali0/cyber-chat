@@ -12,16 +12,12 @@ const MessageForm = (props) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // const text = TranslateApi(text, language);
+    
     const text = value.trim();
-
-
-    console.log("text:  " + text);
 
     const translated = await TranslateApi(text, language)
     setTranslated(translated);
     if (text.length > 0) sendMessage(creds, chatId, { text: translated });
-    console.log(`API :${translated}`);
     setValue("");
   };
 
@@ -31,14 +27,12 @@ const MessageForm = (props) => {
     isTyping(props, chatId);
   };
 
-  const handleLangChange = (e) => {
-    e.preventDefault();
+  const handleLangChange = (event) => {
+    event.preventDefault();
 
     const languageChoice = document.querySelector(".language");
 
     setLanguage(languageChoice.value);
-
-    console.log(language);
   };
 
   const handleUpload = (event) => {

@@ -46,7 +46,6 @@ const ChatFeed = (props) => {
         });
     };
 
-
     if(!chat) return 'Loading...';
 
     return (
@@ -64,7 +63,6 @@ const ChatFeed = (props) => {
             </div>
         </div>
     );
-
 }
 
 export default ChatFeed;
