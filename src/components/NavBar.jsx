@@ -1,10 +1,8 @@
 import React from 'react';
 import { Navbar, Button } from 'react-bootstrap';
 
-
 const NavBar = () => {
 
-// Event listener and logout logic
 window.onload = () => {
    const logOut = document.querySelector(".log-out");
    logOut.addEventListener('click', () => {
